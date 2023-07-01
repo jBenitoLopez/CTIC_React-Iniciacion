@@ -15,4 +15,6 @@
     Removes this tool and copies build dependencies, configuration files
     and scripts into the app directory. If you do this, you can’t go back!
 
-
+> npm install react-html-parser
+	import ReactHtmlParser from "react-html-parser";
+	<p>{ReactHtmlParser(props.description)}</p>
