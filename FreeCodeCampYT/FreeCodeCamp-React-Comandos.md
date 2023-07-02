@@ -19,6 +19,12 @@
 	import ReactHtmlParser from "react-html-parser";
 	<p>{ReactHtmlParser(props.description)}</p>
 
-> npm install eslint-config-standard
-	An ESLint Shareable Config for JavaScript Standard Style
-	1) npx eslint --init, 2) Select "Use a popular style guide." 3) Select "Standard." 4) Select a config file format. 5) If prompted, confirm the installation of the necessary dependencies.
+> npm install standard --save-dev
+	JavaScript style guide, linter, and formatter
+	If you've installed standard locally, run with npx instead: > npx standard
+	- No configuration. The easiest way to enforce consistent style in your project. Just drop it in.
+	- Automatically format code. Just **run standard --fix** and say goodbye to messy or inconsistent code.
+	- Catch style issues & programmer errors early. Save precious code review time by eliminating back-and-forth between reviewer & contributor.
+
+> npm install mathjs
+	An extensive math library for JavaScript and Node.js
